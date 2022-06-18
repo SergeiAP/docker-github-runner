@@ -5,7 +5,7 @@ To run your own [self-hosted](https://docs.github.com/en/actions/hosting-your-ow
 1. Install [docker](https://docs.docker.com/engine/install/ubuntu/)
 2. Copy and reanme `docker.env.example` into `docker.env`
 3. Fill variables for your `github-runner`:
-``bash
+```bash
 RUNNER_VERSION=
 GITHUB_TOKEN=
 GITHUB_PROJECT=
@@ -20,4 +20,4 @@ DOCKER_NETWORK=
 ```
 4. Run `build_and_run.sh` to build image and run container or use commands in Makefile (what is [Makefile](https://opensource.com/article/18/8/what-how-makefile)) for it
 
-**Enjoy!((
+**Enjoy!**
